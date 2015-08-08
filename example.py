@@ -6,7 +6,7 @@ import timeit
 
 # Simply apply the decorator to a function:
 @memoized
-def factoriala(n):
+def factorial(n):
     return 1 if n == 1 else n * factorial(n-1) 
 
 # ...and call it a million times:
